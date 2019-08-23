@@ -31,7 +31,7 @@ BODY {
         function showGraph()
         {
             {
-                $.post("datajanda.php",
+                $.post("data.php",
                 function (data)
                 {
                     console.log(data);
